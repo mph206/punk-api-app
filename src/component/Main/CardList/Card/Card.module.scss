@@ -1,0 +1,21 @@
+.Card {
+    min-width: 300px;
+    max-width: 25%;
+    box-shadow: 0 0 5px 0px white;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    max-height: 350px;
+    overflow-y: auto;
+    margin: 10px;
+    padding: 10px;
+    
+    img {
+        max-height: 200px;
+    }
+
+    .tagline {
+        font-style: italic;
+    }
+
+}
