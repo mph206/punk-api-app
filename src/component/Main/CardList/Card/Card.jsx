@@ -11,12 +11,13 @@ class Card extends Component {
             let ingredientArray = []
             for (let key in this.props.data.ingredients) {
                 // Using [key] here doesn't work but using .malt does....
-                let subIngredients = ingredients[key].map(item => item.name)
-                key += `( ${subIngredients.join(', ')})`
-                ingredientArray.push(key)
+                console.log(key);
+                let subIngredients = ingredients[key].map(item => item.name);
+                key += `(${subIngredients.join(', ')})`;
+                ingredientArray.push(key);
             }
+            console.log(ingredientArray)
             return ingredientArray.join(', ');
-          
         }
         
         // ingredientsList()
