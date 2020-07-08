@@ -6,6 +6,7 @@ import Navbar from './component/Navbar';
 
 export default class App extends Component {
 
+  // Can pass status into state as a single object containing all the filters
   state = {
     searchTerm: '',
     highAlcoholOnly: false,
