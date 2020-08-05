@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import styles from './App.module.scss';
-import beers from './data/beers';
 import Main from './component/Main';
 import Navbar from './component/Navbar';
 
@@ -43,7 +42,7 @@ export default class App extends Component {
     return (
       <main className={styles.app}>
         <Navbar handleSearch={this.handleSearch} filterABV={this.filterABV} filterClassic={this.filterClassic} filterAcidic={this.filterAcidic} />
-        <Main highAlcoholOnly={highAlcoholOnly} classicRangeOnly={classicRangeOnly} highAcidityOnly={highAcidityOnly} searchTerm={searchTerm} data={beers} />
+        <Main highAlcoholOnly={highAlcoholOnly} classicRangeOnly={classicRangeOnly} highAcidityOnly={highAcidityOnly} searchTerm={searchTerm} />
       </main>
     )
     ;

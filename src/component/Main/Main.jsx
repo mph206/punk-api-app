@@ -5,8 +5,8 @@ import CardList from './CardList'
 class Main extends Component {
     state = {  }
     render() { 
-        const {highAlcoholOnly, classicRangeOnly, highAcidityOnly, searchTerm, data } = this.props;
-        return (<CardList className={styles.main} highAlcoholOnly={highAlcoholOnly} classicRangeOnly={classicRangeOnly} highAcidityOnly={highAcidityOnly} searchTerm={searchTerm} data={data} />);
+        const {highAlcoholOnly, classicRangeOnly, highAcidityOnly, searchTerm } = this.props;
+        return (<CardList className={styles.main} highAlcoholOnly={highAlcoholOnly} classicRangeOnly={classicRangeOnly} highAcidityOnly={highAcidityOnly} searchTerm={searchTerm} />);
     }
 }
  
