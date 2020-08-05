@@ -3,6 +3,16 @@ import styles from './CardList.module.scss';
 import Card from './Card'
 
 class CardList extends Component {
+    state = {
+        beers: [],
+    }
+
+    componentDidMount() {
+        fetch('https://api.punkapi.com/v2/beers?page=1&per_page=80')
+        .then(response => response.json())
+        .then(response => this.setState({beers: response}))
+        .catch(error => console.log(error))
+    }
     
     filterCheckbox = (filterProp, filterParam) => {
        if (filterProp) {
@@ -20,7 +30,7 @@ class CardList extends Component {
     }
 
     filter = () => {
-        return this.props.data
+        return this.state.beers
             .filter((beer) => {return (
                 this.filterCheckbox(this.props.highAlcoholOnly, beer.abv > 6)
                 && this.filterCheckbox(this.props.classicRangeOnly, (parseInt(beer.first_brewed.split('/').pop()) < 2010) )
