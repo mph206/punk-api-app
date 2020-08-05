@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/punk-api-app/static/css/main.9d953ff0.chunk.css",
+    "main.js": "/punk-api-app/static/js/main.c043c626.chunk.js",
+    "main.js.map": "/punk-api-app/static/js/main.c043c626.chunk.js.map",
+    "runtime-main.js": "/punk-api-app/static/js/runtime-main.6d3e7a92.js",
+    "runtime-main.js.map": "/punk-api-app/static/js/runtime-main.6d3e7a92.js.map",
+    "static/js/2.e7f61295.chunk.js": "/punk-api-app/static/js/2.e7f61295.chunk.js",
+    "static/js/2.e7f61295.chunk.js.map": "/punk-api-app/static/js/2.e7f61295.chunk.js.map",
+    "index.html": "/punk-api-app/index.html",
+    "precache-manifest.2c7725b06e047d37df14124b137bfb21.js": "/punk-api-app/precache-manifest.2c7725b06e047d37df14124b137bfb21.js",
+    "service-worker.js": "/punk-api-app/service-worker.js",
+    "static/css/main.9d953ff0.chunk.css.map": "/punk-api-app/static/css/main.9d953ff0.chunk.css.map",
+    "static/js/2.e7f61295.chunk.js.LICENSE.txt": "/punk-api-app/static/js/2.e7f61295.chunk.js.LICENSE.txt",
+    "static/media/App.module.scss": "/punk-api-app/static/media/pub.ef084804.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6d3e7a92.js",
+    "static/js/2.e7f61295.chunk.js",
+    "static/css/main.9d953ff0.chunk.css",
+    "static/js/main.c043c626.chunk.js"
+  ]
+}
